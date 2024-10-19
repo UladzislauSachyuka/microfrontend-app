@@ -19,24 +19,29 @@ This project demonstrates the use of micro frontends in an app built using Vite,
 
    ```bash
    git clone https://github.com/UladzislauSachyuka/microfrontend-app.git
+   or
+   git clone git@github.com:UladzislauSachyuka/microfrontend-app.git
    ```
 
 2. Install dependencies, build and run the individual apps:
   - UserList (remote application)
      ```bash
      cd user-list
+     yarn
      yarn build
      yarn preview
      ```
   - Weather (remote application)
     ```bash
     cd weather
+    yarn
     yarn build
     yarn preview
     ```
   - MainApp (host application)
     ```bash
     cd main-app
+    yarn
     yarn build
     yarn preview
     ```
