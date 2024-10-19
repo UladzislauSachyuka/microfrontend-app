@@ -19,11 +19,13 @@ This project demonstrates the use of micro frontends in an app built using Vite,
 
    ```bash
    git clone https://github.com/UladzislauSachyuka/microfrontend-app.git
+   ```
    or
+   ```bash
    git clone git@github.com:UladzislauSachyuka/microfrontend-app.git
    ```
 
-2. Install dependencies, build and run the individual apps:
+3. Install dependencies, build and run the individual apps:
   - UserList (remote application)
      ```bash
      cd user-list
