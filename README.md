@@ -1,5 +1,5 @@
 # Micro Frontend App
-This project demonstrates the use of micro frontends in an app built using Vite, React and TypeScript with the help of Module Federation. It consists of independent applications that come together to provide functionality such as displaying a list of users and weather information.
+This project demonstrates the use of micro frontends in an app built using Vite, React and TypeScript with the help of Module Federation. It consists of independent applications that come together to provide functionality such as displaying a list of users and weather information. Using the capabilities of Vite for fast assembly and Module Federation for dynamic code loading, you can effectively develop and scale web applications on a modular basis. This approach allows multiple teams to work on different parts of the application independently of each other, which contributes to the flexibility and dynamism of the development of external components.
 
 ## Project Structure
 
