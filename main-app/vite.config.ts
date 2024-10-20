@@ -7,7 +7,7 @@ export default defineConfig({
     react(),
     federation({
       name: "mainApp",
-      remotes: {
+      remotes: { // in this field we specify the links to our remote applications
         userList: "http://localhost:3002/assets/remoteEntry.js",
         weather: "http://localhost:3001/assets/remoteEntry.js",
       },
